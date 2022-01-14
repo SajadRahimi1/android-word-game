@@ -7,6 +7,7 @@
     <fragment
         android:id="@+id/mainFragment"
         android:name="com.example.word_game.MainFragment"
+        tools:layout="@layout/fragment_main"
         android:label="MainFragment" >
         <action
             android:id="@+id/action_mainFragment_to_gameFragment2"
@@ -15,5 +16,6 @@
     <fragment
         android:id="@+id/gameFragment2"
         android:name="com.example.word_game.GameFragment"
+        tools:layout="@layout/fragment_game"
         android:label="GameFragment" />
 </navigation>

@@ -20,13 +20,15 @@
             android:textColor="@color/white"
             android:text="@string/app_name"
             android:textSize="18sp" />
+
     </RelativeLayout>
 
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentContainerView"
+        android:id="@+id/fragmentContainerView3"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="56dp"
         app:defaultNavHost="true"
         app:navGraph="@navigation/navigation_graph" />
 
