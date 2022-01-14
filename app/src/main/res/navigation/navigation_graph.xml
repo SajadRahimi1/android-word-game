@@ -3,22 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation_graph"
-    app:startDestination="@id/mainFragment2">
-    <navigation android:id="@+id/navigation7"
-        app:startDestination="@id/mainFragment2">
-        <activity
-            android:id="@+id/mainFragment2"
-            android:name="com.example.word_game.MainFragment"
-            android:label="MainFragment" />
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.word_game.MainFragment"
+        android:label="MainFragment" >
         <action
-            android:id="@+id/action_global_navigation8"
-            app:destination="@id/navigation8" />
-    </navigation>
-    <navigation android:id="@+id/navigation8"
-        app:startDestination="@id/gameFragment3">
-        <activity
-            android:id="@+id/gameFragment3"
-            android:name="com.example.word_game.GameFragment"
-            android:label="GameFragment" />
-    </navigation>
+            android:id="@+id/action_mainFragment_to_gameFragment2"
+            app:destination="@id/gameFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment2"
+        android:name="com.example.word_game.GameFragment"
+        android:label="GameFragment" />
 </navigation>
