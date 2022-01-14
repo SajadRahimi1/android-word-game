@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Word_game">
         <activity
+            android:name=".GameFragment"
+            android:exported="true" />
+        <activity
+            android:name=".MainFragment"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
