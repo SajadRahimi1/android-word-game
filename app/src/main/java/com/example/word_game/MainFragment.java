@@ -25,5 +25,7 @@ public class MainFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         RecyclerView recyclerView = (RecyclerView) view;
         recyclerView.setLayoutManager(new GridLayoutManager(getContext(),3));
+        LevelAdapter levelAdapter = new LevelAdapter(GamePlayUtil.createLevels());
+        recyclerView.setAdapter(levelAdapter);
     }
 }

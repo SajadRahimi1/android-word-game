@@ -13,7 +13,7 @@
     <item android:state_enabled="false">
         <shape xmlns:android="http://schemas.android.com/apk/res/android">
             <solid
-                android:color="@color/gray500" />
+                android:color="#979595" />
             <corners android:radius="8dp" />
         </shape>
     </item>
