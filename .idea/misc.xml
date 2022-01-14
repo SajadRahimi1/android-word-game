@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Sajad/AndroidStudioProjects/word_game/app/src/main/res/drawable/background_main.xml" value="0.2703125" />
+        <entry key="..\:/Users/Sajad/AndroidStudioProjects/word_game/app/src/main/res/drawable/background_rv_item.xml" value="0.2703125" />
         <entry key="..\:/Users/Sajad/AndroidStudioProjects/word_game/app/src/main/res/layout/activity_main.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/Sajad/AndroidStudioProjects/word_game/app/src/main/res/layout/fragment_game.xml" value="0.1793478260869565" />
       </map>
     </option>
   </component>
